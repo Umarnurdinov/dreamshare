@@ -1,0 +1,100 @@
+.holiday__header {
+  padding: 80px 0;
+  max-width: 1500px;
+  text-align: center;
+}
+.holiday__header-logo {
+  color: #444;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.holiday {
+  padding: 20px 200px;
+}
+.holiday__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.holiday__cards__card {
+  background: url(/images/4.jpg) center/cover;
+  max-width: 100%;
+  border-radius: 4px;
+}
+.holiday__cards__card__nav-text {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 130px 0;
+}
+.holiday__cards__card-2 {
+  background: url(/images/5.jpg) center/cover;
+  max-width: 100%;
+  border-radius: 4px;
+}
+.holiday__cards__card-3 {
+  background: url(/images/6.jpg) center/cover;
+  width: 100%;
+  border-radius: 4px;
+}
+.holiday__cards__card-4 {
+  background: url(/images/7.jpg) center/cover;
+  width: 100%;
+  border-radius: 4px;
+}
+.holiday__cards__card-5 {
+  background: url(/images/8.jpg) center/cover;
+  width: 100%;
+  grid-column: 2/4;
+  border-radius: 4px;
+}
+.holiday__cards__card-6 {
+  background: url(/images/9.jpg) center/cover;
+  width: 100%;
+  grid-column: 1/3;
+  border-radius: 4px;
+}
+.holiday__cards__card-7 {
+  background: url(/images/10.jpg) center/cover;
+  width: 100%;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 1090px) {
+  .holiday {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .holiday__cards__card-2 {
+    grid-row: 2;
+  }
+  .holiday__cards__card-3 {
+    grid-row: 3;
+  }
+  .holiday__cards__card-4 {
+    grid-row: 4;
+  }
+  .holiday__cards__card-5 {
+    grid-row: 5;
+    grid-column: 1;
+  }
+  .holiday__cards__card-6 {
+    grid-row: 6;
+    grid-column: 1;
+  }
+  .holiday__cards__card-7 {
+    grid-row: 7;
+  }
+  .holiday__cards {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=holiday.css.map */
