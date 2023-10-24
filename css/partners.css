@@ -1,0 +1,133 @@
+.partners__header {
+  padding: 80px 0;
+  max-width: 1500px;
+  text-align: center;
+}
+.partners__header-logo {
+  color: #444;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.partners {
+  padding: 0 110px;
+}
+.partners__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.partners__cards__card {
+  width: 221px;
+  height: 205px;
+}
+.partners__cards__card__icon {
+  position: absolute;
+  padding: 10px 0 0 50px;
+}
+.partners__cards__card__icon-img-1 {
+  position: absolute;
+}
+.partners__cards__card__icon-img-2 {
+  position: absolute;
+  border-radius: 100%;
+}
+.partners__cards__card__icon-img-3 {
+  position: absolute;
+  top: 97px;
+  left: 137px;
+}
+.partners__cards__card__icon-img-4 {
+  position: absolute;
+  top: 105px;
+  left: 145px;
+}
+.partners__cards__card__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 137px 0 0 0;
+}
+.partners__cards__card__nav-text1 {
+  color: #444;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 221px;
+}
+.partners__cards__card__nav-text2 {
+  color: #666;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  display: flex;
+  max-width: 221px;
+  height: 38px;
+}
+.partners__button {
+  text-align: center;
+  padding: 50px 0;
+}
+.partners__button-btn {
+  color: #ff4e50;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 180px;
+  height: 40px;
+  border-radius: 40px;
+  border: 2px solid #ff4e50;
+  background: #fff;
+}
+
+@media screen and (max-width: 1090px) {
+  .partners__cards__card-2 {
+    grid-row: 2;
+  }
+  .partners__cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .partners__cards__card-4 {
+    grid-row: 2;
+  }
+}
+@media screen and (max-width: 750px) {
+  .partners__cards__card-3 {
+    grid-row: 2;
+  }
+  .partners__cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .partners {
+    padding: 0 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .partners__cards__card-2 {
+    grid-row: 3;
+  }
+}
+@media screen and (max-width: 750px) {
+  .partners__cards__card-4 {
+    grid-row: 4;
+  }
+}
+@media screen and (max-width: 750px) {
+  .partners__button-btn {
+    width: 280px;
+    height: 40px;
+  }
+}/*# sourceMappingURL=partners.css.map */

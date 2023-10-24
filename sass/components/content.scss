@@ -19,7 +19,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     &__card {
-      background: url(/images/1.png) center / cover;
+      background: url(/images/1.jpg) center / cover;
       max-width: 300px;
       height: 400px;
       border-radius: 4px;
@@ -56,13 +56,13 @@
       }
     }
     &__card-2 {
-      background: url(/images/2.png) center / cover;
+      background: url(/images/2.jpg) center / cover;
       max-width: 300px;
       height: 400px;
       border-radius: 4px;
     }
     &__card-3 {
-      background: url(/images/3.png) center / cover;
+      background: url(/images/3.jpg) center / cover;
       max-width: 300px;
       height: 400px;
       border-radius: 4px;

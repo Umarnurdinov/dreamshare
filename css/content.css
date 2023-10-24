@@ -20,7 +20,7 @@
   gap: 20px;
 }
 .content__cards__card {
-  background: url(/images/1.png) center/cover;
+  background: url(/images/1.jpg) center/cover;
   max-width: 300px;
   height: 400px;
   border-radius: 4px;
@@ -57,13 +57,13 @@
   line-height: 16px;
 }
 .content__cards__card-2 {
-  background: url(/images/2.png) center/cover;
+  background: url(/images/2.jpg) center/cover;
   max-width: 300px;
   height: 400px;
   border-radius: 4px;
 }
 .content__cards__card-3 {
-  background: url(/images/3.png) center/cover;
+  background: url(/images/3.jpg) center/cover;
   max-width: 300px;
   height: 400px;
   border-radius: 4px;
